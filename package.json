@@ -1,0 +1,31 @@
+{
+  "name": "minds-eye-law-n-network",
+  "version": "0.1.0",
+  "description": "LAW-N (Law of Network) — the Mind's Eye data movement layer for routing, separating, and prioritizing packets across devices, mobile networks, and cloud services.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "example": "ts-node examples/basic-send.ts",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "minds-eye",
+    "law-n",
+    "network",
+    "packet-routing",
+    "data-layer",
+    "agentic-os",
+    "mindseye",
+    "sageworks",
+    "events",
+    "network-policy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
